@@ -237,4 +237,10 @@ From **ERNET - Education and Research Network, India**.
 
 I first tried at whois.net but couldn't find the answer. So I googled from where does `ac.in` type domain are purchased and got to the answer.
 
-Then I realised that students.iitmandi.ac.in is just a subdomain. It's primary domain is iitmandi.ac.in which on finding on whois.net gave me the same answer.
+### 3. Find data centers of duckduckgo
+
+I have so far found 5 data centers - 
+California, Virginia, Singapore, Ireland, Illinois
+
+I googled and found out that it's datacenters are on Amazon AWS.
+I used VPN which was routing in New York. Then I used `traceroute` to find the path of packet. I found each Amazon's datacenter in between and kept note of it. I am not sure it this is the correct way to find it. Hence, I didn't VPN into other countries to check it. 
