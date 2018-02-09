@@ -1,5 +1,8 @@
 ### 1. Information about 14.139.34.0/24 
 
+I used `nmap` to get information about open ports and operating system.
+The command used was : `sudo nmap -O 14.139.34.0/24`
+
 **14.139.34.2** :
 | PORT        | STATE           | SERVICE  |
 | ------------- |-------------| -----|
@@ -228,3 +231,10 @@ OS details: OpenWrt 12.09-rc1 Attitude Adjustment (Linux 3.3 - 3.7)
 | 8081/tcp | open     | blackice-icecap
 | 8082/tcp | open     | blackice-alerts
 
+### 2. For students.iitmandi.ac.in, you need to find out from what company the domain has been bought
+
+From **ERNET - Education and Research Network, India**. 
+
+I first tried at whois.net but couldn't find the answer. So I googled from where does `ac.in` type domain are purchased and got to the answer.
+
+Then I realised that students.iitmandi.ac.in is just a subdomain. It's primary domain is iitmandi.ac.in which on finding on whois.net gave me the same answer.
